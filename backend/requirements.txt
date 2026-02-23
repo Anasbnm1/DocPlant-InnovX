@@ -8,3 +8,4 @@ numpy
 Pillow
 grad-cam
 google-generativeai
+dotenv

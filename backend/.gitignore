@@ -32,6 +32,7 @@ venv.bak/
 
 # PyTorch/ML Models
 *.pth
+!plantdoc_mobilenetv2.pth
 *.pt
 *.onnx
 *.weights

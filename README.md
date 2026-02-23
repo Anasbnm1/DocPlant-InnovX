@@ -44,7 +44,10 @@ source venv/bin/activate
 # 4. Installer les dépendances Python
 pip install -r requirements.txt
 
-# 5. Démarrer le serveur API
+# 5. Entraîner le modèle (Nécessaire pour que l'agent détecte la maladie)
+python train_improved.py
+
+# 6. Démarrer le serveur API
 uvicorn api:app --reload
 ```
 Le backend tourne maintenant sur `http://127.0.0.1:8000`.
