@@ -1,0 +1,434 @@
+[
+    {
+        "id": "early-blight",
+        "name": "Alternariose (Early Blight)",
+        "scientificName": "Alternaria solani",
+        "plants": [
+            "Tomate",
+            "Pomme de terre"
+        ],
+        "severity": "warning",
+        "description": "Maladie fongique très commune touchant surtout le bas de la plante. Elle survient souvent après la floraison, favorisée par la chaleur et une humidité modérée.",
+        "symptoms": [
+            "Taches brunes à noires sur les feuilles les plus anciennes",
+            "Anneaux concentriques ('en cible') à l'intérieur des taches",
+            "Jaunissement en halo autour des taches",
+            "Défoliation commençant par le bas de la plante"
+        ],
+        "prevention": [
+            "Effectuer une rotation des cultures tous les 3-4 ans",
+            "Pailler le sol pour éviter que l'eau n'éclabousse les feuilles basses",
+            "Espacer suffisamment les plants pour faciliter l'aération"
+        ],
+        "treatment": [
+            "Couper et retirer immédiatement les feuilles atteintes",
+            "Ne pas composter les parties infectées",
+            "Appliquer un fongicide à base de cuivre (bouillie bordelaise) ou de bicarbonate de soude en début d'infection"
+        ]
+    },
+    {
+        "id": "late-blight",
+        "name": "Mildiou (Late Blight)",
+        "scientificName": "Phytophthora infestans",
+        "plants": [
+            "Tomate",
+            "Pomme de terre"
+        ],
+        "severity": "danger",
+        "description": "Une des maladies les plus destructrices, évoluant de manière fulgurante (parfois en quelques jours) lorsque le temps est froid et très humide.",
+        "symptoms": [
+            "Grandes taches d'aspect huileux, vert sombre à brunes sur les feuilles",
+            "Duvet blanc visible sur la face inférieure des feuilles par temps très humide",
+            "Les tiges noircissent rapidement",
+            "Les fruits présentent des taches brunes foncées et rugueuses, et pourrissent"
+        ],
+        "prevention": [
+            "Cultiver sous serre bien aérée ou abri si le climat est naturellement très humide",
+            "Ne planter que des variétés résistantes au mildiou",
+            "Traitements préventifs réguliers à la bouillie bordelaise (cuivre) ou purin de prêle avant les périodes pluvieuses"
+        ],
+        "treatment": [
+            "Le traitement curatif est très difficile ; arracher et détruire (brûler) urgemment les plants trop atteints pour sauver le reste de la culture.",
+            "Si pris très tôt, tailler sévèrement les parties atteintes et traiter abondamment au cuivre."
+        ]
+    },
+    {
+        "id": "leaf-mold",
+        "name": "Moisissure des feuilles (Leaf Mold)",
+        "scientificName": "Passalora fulva",
+        "plants": [
+            "Tomate"
+        ],
+        "severity": "warning",
+        "description": "Maladie fongique redoutable en serre ou sous abri, car elle prospère presque exclusivement dans des environnements très humides (humidité relative > 85%) avec une mauvaise circulation d'air.",
+        "symptoms": [
+            "Taches jaunâtres diffuses sur la face supérieure des vieilles feuilles",
+            "Apparition d'un duvet ou feutrage (moisissure) gris-violet à brun olive sous ces mêmes taches",
+            "Les feuilles s'enroulent, se dessèchent et finissent par tomber"
+        ],
+        "prevention": [
+            "Ventiler abondamment les serres de culture, surtout la nuit et tôt le matin",
+            "Éviter tout arrosage sur le feuillage",
+            "Tailler les feuilles du bas (effeuillage) pour faciliter la circulation de l'air au pied de la plante"
+        ],
+        "treatment": [
+            "Suppression rapide des premières feuilles touchées pour réduire le nombre de spores",
+            "Amélioration drastique de la ventilation environnementale",
+            "Utilisation de fongicides adaptés (à base de soufre ou de bicarbonate) en cas de forte pression"
+        ]
+    },
+    {
+        "id": "powdery-mildew",
+        "name": "Oïdium (Powdery Mildew)",
+        "scientificName": "Erysiphales",
+        "plants": [
+            "Courgette",
+            "Concombre",
+            "Rosier",
+            "Vigne",
+            "Tomate"
+        ],
+        "severity": "warning",
+        "description": "Maladie fongique reconnaissable à un dépôt blanc poudreux. Contrairement à d'autres maladies cryptogamiques, l'oïdium n'a pas besoin d'eau liquide pour germer : une forte humidité de l'air accompagnée de temps chaud suffit.",
+        "symptoms": [
+            "Feutrage blanc ou grisâtre, d'aspect poudreux, sur la face supérieure des feuilles",
+            "Déformation et recroquevillement des jeunes feuilles",
+            "En cas d'attaque sévère, les feuilles jaunissent et sèchent, affectant la photosynthèse"
+        ],
+        "prevention": [
+            "Éviter les plantations trop denses",
+            "Ne pas abuser des engrais riches en azote qui favorisent les jeunes pousses tendres (très vulnérables)",
+            "Pulvérisations préventives de purin de prêle ou de décoction d'ail"
+        ],
+        "treatment": [
+            "Pulvériser un mélange d'eau, de lait (10%) ou de bicarbonate de soude (5g/L) additionné d'un peu de savon noir",
+            "Traitements à base de soufre mouillable",
+            "Supprimer les parties de la plante les plus infestées"
+        ]
+    },
+    {
+        "id": "spider-mites",
+        "name": "Acariens (Araignées rouges)",
+        "scientificName": "Tetranychus urticae",
+        "plants": [
+            "Oxygénium",
+            "Tomate",
+            "Aubergine",
+            "Plantes d'intérieur"
+        ],
+        "severity": "warning",
+        "description": "De tout petits acariens (non des insectes) qui se nourrissent de la sève des plantes. Ils se multiplient à grande vitesse en conditions chaudes et très sèches.",
+        "symptoms": [
+            "Minuscules points clairs (piqûres) sur les feuilles rendant le feuillage terne ou plombé",
+            "Toiles très fines à la base des feuilles ou des tiges en cas de forte infestation",
+            "Jaunissement généralisé et chute des feuilles si non traité"
+        ],
+        "prevention": [
+            "Maintenir une bonne humidité ambiante (brumiser les plantes d'intérieur)",
+            "Doucher de temps en temps les feuilles des plantes non sensibles aux champignons",
+            "Favoriser l'installation de prédateurs naturels (lâchers de Phytoseiulus persimilis) en serre"
+        ],
+        "treatment": [
+            "Doucher abondamment la plante pour lessiver une grande partie de la colonie",
+            "Pulvériser de l'huile de neem ou du savon noir (en insistant sous les feuilles)",
+            "Emballer une plante d'intérieur dans un sac plastique transparent fermé 48h (pour saturer l'humidité, ce qui tue les acariens)"
+        ]
+    },
+    {
+        "id": "aphids",
+        "name": "Pucerons (Aphids)",
+        "scientificName": "Aphidoidea",
+        "plants": [
+            "Généraliste",
+            "Rosier",
+            "Tomate",
+            "Pommier"
+        ],
+        "severity": "warning",
+        "description": "Petits insectes piqueurs-suceurs (verts, noirs ou jaunes) qui se regroupent en colonies sur les jeunes parties tendres des plantes.",
+        "symptoms": [
+            "Amas d'insectes visibles à l'œil nu sur les tiges, boutons floraux et tendres feuilles",
+            "Présence d'un liquide collant (le miellat) rejeté par les pucerons",
+            "Apparition de 'Fumagine' (poudre noire semblable à de la suie) qui se développe sur le miellat",
+            "Feuilles qui se recroquevillent ou se déforment"
+        ],
+        "prevention": [
+            "Attirer les auxiliaires (coccinelles, syrphes, chrysopes) en diversifiant les plantations",
+            "Éviter les apports d'engrais riches en azote",
+            "Planter des plantes répulsives (œillets d'Inde, capucines en leurres)"
+        ],
+        "treatment": [
+            "Jet d'eau puissant pour déloger mécaniquement les colonies",
+            "Pulvérisation de savon noir liquide (1 à 2 cuillères à soupe par litre d'eau tiède)",
+            "Introduction d'insectes auxiliaires achetés dans le commerce (larves de coccinelles)"
+        ]
+    },
+    {
+        "id": "mosaic-virus",
+        "name": "Virus de la Mosaïque",
+        "scientificName": "Tobamovirus / Potyvirus",
+        "plants": [
+            "Tomate",
+            "Tabac",
+            "Concombre",
+            "Courgette"
+        ],
+        "severity": "danger",
+        "description": "Une maladie virale incurable. Le virus peut survivre plusieurs années dans des débris végétaux ou être transmis par des insectes (pucerons) ou par les mains d'un jardinier.",
+        "symptoms": [
+            "Marbrures ou taches claires/foncées (motif en 'mosaïque') sur le feuillage",
+            "Ralentissement drastique de la croissance ; plante rabougrie",
+            "Feuilles filiformes, boursoufflées ou déformées"
+        ],
+        "prevention": [
+            "Acheter des semences certifiées saines ou des variétés génétiquement résistantes",
+            "Lutter contre les insectes piqueurs-suceurs (pucerons, thrips) qui agissent comme vecteurs",
+            "Se laver soigneusement les mains et désinfecter les outils entre chaque manipulation"
+        ],
+        "treatment": [
+            "AUCUN TRAITEMENT EXISTANT.",
+            "L'unique solution est l'arrachage immédiat, puis de brûler ou jeter le plant (surtout pas de compost !)."
+        ]
+    },
+    {
+        "id": "black-spot",
+        "name": "Taches Noires (Black Spot)",
+        "scientificName": "Diplocarpon rosae",
+        "plants": [
+            "Rosier"
+        ],
+        "severity": "warning",
+        "description": "La maladie cryptogamique la plus tristement célèbre sur les rosiers. S'active fortement pendant les étés pluvieux et tièdes.",
+        "symptoms": [
+            "Taches rondes pourpre-noir aux contours souvent frangés sur les feuilles",
+            "Jaunissement de la feuille autour des taches",
+            "Chute prématurée et importante du feuillage, affaiblissant l'arbuste"
+        ],
+        "prevention": [
+            "Ramasser très régulièrement les feuilles malades tombées au sol à l'automne",
+            "Tailler au centre de l'arbuste pour laisser circuler le vent et faire sécher vite",
+            "Choisir des espèces ou variétés de rosiers dites ADR (label de résistance)"
+        ],
+        "treatment": [
+            "Couper et détruire les feuilles touchées au fur et à mesure",
+            "Pulvérisations de purin de prêle pour durcir les tissus foliaires",
+            "Traitements au cuivre ou soufre dès les premiers signes"
+        ]
+    },
+    {
+        "id": "rust",
+        "name": "Rouille (Rust)",
+        "scientificName": "Pucciniales",
+        "plants": [
+            "Rosier",
+            "Menthe",
+            "Ail",
+            "Poireau",
+            "Pelargonium"
+        ],
+        "severity": "warning",
+        "description": "Maladie fongique très visible caractérisée par des pustules souvent de couleur rouille, orange ou brune sur l'envers des feuilles.",
+        "symptoms": [
+            "Taches jaunâtres sur le dessus des feuilles",
+            "Pustules orange, rouille ou brunes sous les feuilles",
+            "Dessèchement et chute des feuilles sévèrement touchées"
+        ],
+        "prevention": [
+            "Assurer une bonne circulation de l'air autour des plantes",
+            "Éviter de mouiller le feuillage lors des arrosages",
+            "Éliminer les débris végétaux en fin de saison"
+        ],
+        "treatment": [
+            "Supprimer immédiatement les feuilles présentant des pustules",
+            "Traiter avec des fongicides à base de soufre ou de purin de prêle",
+            "En cas de forte attaque incurable, arracher la plante."
+        ]
+    },
+    {
+        "id": "botrytis",
+        "name": "Pourriture grise (Botrytis)",
+        "scientificName": "Botrytis cinerea",
+        "plants": [
+            "Fraisier",
+            "Tomate",
+            "Vigne",
+            "Cyclamen"
+        ],
+        "severity": "danger",
+        "description": "Un champignon nécrotrophe très commun qui s'attaque aux fleurs, aux fruits et aux tissus tendres. Il prolifère dans des conditions très humides et confinées.",
+        "symptoms": [
+            "Apparition d'un fin duvet grisâtre (moisissure) sur les fruits, fleurs ou tiges",
+            "Taches brunes molles et humides sur les tissus affectés",
+            "Pourrissement rapide des fruits (ex: fraises)"
+        ],
+        "prevention": [
+            "Aérer systématiquement les serres et abris",
+            "Ne pas planter trop dense pour permettre à l'air de sécher rapidement la rosée",
+            "Nettoyer les fleurs fanées et les fruits gâtés immédiatement"
+        ],
+        "treatment": [
+            "Retirer et détruire toutes les parties couvertes de moisissure (sans secouer pour ne pas répandre les spores)",
+            "Application de bouillie bordelaise ou de fongicides spécifiques si conditions très défavorables."
+        ]
+    },
+    {
+        "id": "whiteflies",
+        "name": "Mouches blanches (Aleurodes)",
+        "scientificName": "Aleyrodidae",
+        "plants": [
+            "Tomate",
+            "Fuchsia",
+            "Plantes d'intérieur",
+            "Chou"
+        ],
+        "severity": "warning",
+        "description": "Minuscules insectes volants blancs (environ 1-2 mm) qui ressemblent à de petits papillons. Ils s'envolent en nuage lorsqu'on secoue la plante.",
+        "symptoms": [
+            "Nuées d'insectes blancs s'envolant au moindre contact",
+            "Présence de miellat collant et de fumagine (suie noire) sur les feuilles basses",
+            "Affaiblissement général de la plante, jaunissement des feuilles"
+        ],
+        "prevention": [
+            "Aérer les cultures (ils détestent les courants d'air et préfèrent les atmosphères chaudes et confinées)",
+            "Placer des pièges chromatiques jaunes englués",
+            "Favoriser la biodiversité alentour"
+        ],
+        "treatment": [
+            "Aspirer les adultes très délicatement au petit matin lorsqu'ils sont engourdis",
+            "Pulvériser du savon noir sous les feuilles pour cibler les larves (immobiles)",
+            "Introduction de guêpes parasitoïdes (Encarsia formosa) en lutte biologique sous serre"
+        ]
+    },
+    {
+        "id": "thrips",
+        "name": "Thrips",
+        "scientificName": "Thysanoptera",
+        "plants": [
+            "Monstera",
+            "Orchidée",
+            "Olivier",
+            "Oignon",
+            "Fraisier"
+        ],
+        "severity": "warning",
+        "description": "Insectes allongés, minuscules (1-2 mm) et très agiles, capables de sauter ou voler. Ils percent les cellules végétales pour en aspirer le contenu.",
+        "symptoms": [
+            "Taches de couleur gris-argent ou plombé sur les feuilles avec des reflets brillants",
+            "Petits points noirs (excréments) visibles sur ces zones décolorées",
+            "Fleurs déformées ne s'ouvrant pas correctement",
+            "Déformations foliaires importantes"
+        ],
+        "prevention": [
+            "Maintenir une humidité ambiante élevée (les thrips préfèrent le temps chaud et sec)",
+            "Utiliser des pièges chromatiques bleus (qui attirent spécifiquement les thrips)"
+        ],
+        "treatment": [
+            "Brumiser ou doucher la plante régulièrement",
+            "Appliquer du savon noir ou de l'huile de neem sur et sous toutes les feuilles",
+            "Dans les cas graves en intérieur, isoler la plante immédiatement."
+        ]
+    },
+    {
+        "id": "iron-chlorosis",
+        "name": "Chlorose Ferrique (Carence)",
+        "scientificName": "Carence nutritionnelle",
+        "plants": [
+            "Rosier",
+            "Agrumes",
+            "Hortensia",
+            "Framboisier",
+            "Vigne"
+        ],
+        "severity": "warning",
+        "description": "Un désordre physiologique lié à l'incapacité de la plante à assimiler le fer, souvent à cause d'un sol trop calcaire (pH trop élevé) qui 'bloque' cet oligo-élément crucial pour la chlorophylle.",
+        "symptoms": [
+            "Jaunissement caractéristique des jeunes feuilles (les plus récentes)",
+            "Les nervures des feuilles restent bien vertes tandis que le limbe jaunit jusqu'à devenir presque blanc dans les cas extrêmes",
+            "Ralentissement de la croissance et baisse de floraison"
+        ],
+        "prevention": [
+            "Connaître le pH de son sol avant de planter des espèces sensibles au calcaire (plantes de terre de bruyère)",
+            "Améliorer le sol avec un apport de compost riche ou de terreau de feuilles",
+            "Éviter d'arroser avec de l'eau du robinet très calcaire ; préférer l'eau de pluie"
+        ],
+        "treatment": [
+            "Apporter des chélates de fer (ou 'antichlorose') au sol ou en pulvérisation foliaire pour un effet rapide",
+            "Acidifier doucement le sol autour de la plante avec des paillis d'écorces de pin ou de la tourbe",
+            "Rempoter avec un substrat adapté si c'est une plante en pot"
+        ]
+    },
+    {
+        "id": "damping-off",
+        "name": "Fonte des semis (Damping off)",
+        "scientificName": "Pythium / Rhizoctonia",
+        "plants": [
+            "Semis de toutes plantes"
+        ],
+        "severity": "danger",
+        "description": "Une affection mortelle frappant les jeunes plantules à peine germées, causée par divers champignons pathogènes du sol dans des conditions trop humides et non stériles.",
+        "symptoms": [
+            "Les jeunes tiges s'amincissent, brunissent et pourrissent à la base (au niveau du terreau)",
+            "La plantule tombe littéralement, comme foudroyée, puis dépérit en quelques heures",
+            "Parfois présence d'un léger duvet blanc sur le terreau"
+        ],
+        "prevention": [
+            "Utiliser exclusivement du terreau 'Spécial Semis', propre et stérile",
+            "Aérer les terrines de semis dès la levée des graines, ne pas laisser de couvercle étanche en permanence",
+            "Ne pas semer trop dense",
+            "Arroser par capillarité (par dessous en bassinant le pot) plutôt que par le haut"
+        ],
+        "treatment": [
+            "Aucun traitement ne sauve une plantule tombée.",
+            "Retirer immédiatement les plants touchés, saupoudrer de la cannelle (antibactérien/fongicide naturel) ou de la poudre de charbon de bois sur le terreau restant, et ventiler d'urgence."
+        ]
+    },
+    {
+        "id": "scale-insects",
+        "name": "Cochenilles (Scale insects)",
+        "scientificName": "Coccoidea",
+        "plants": [
+            "Agrumes",
+            "Orchidée",
+            "Laurier-rose",
+            "Cactus",
+            "Plantes grasses"
+        ],
+        "severity": "warning",
+        "description": "Insectes piqueurs-suceurs très coriaces souvent recouverts d'une carapace dure (cochenilles à bouclier) ou d'un amas cotonneux blanc (cochenilles farineuses).",
+        "symptoms": [
+            "Présence de petites coques brunes/noires collées sur les tiges et l'envers des feuilles",
+            "Ou présence d'amas blancs poudreux/cotonneux à l'aisselle des feuilles",
+            "Gouttes de miellat collant et fumagine (suie) sur les feuilles comme pour les pucerons",
+            "Plante chétive"
+        ],
+        "prevention": [
+            "Inspecter soigneusement toute nouvelle plante avant introduction en intérieur ou serre",
+            "Nettoyer les plantes d'intérieur pour les dépoussiérer régulièrement"
+        ],
+        "treatment": [
+            "Retrait manuel avec un coton-tige imbibé d'alcool à 70° ou de bière",
+            "Pulvériser une solution maison: 1c à soupe de savon noir + 1c à soupe d'huile + 1c à soupe d'alcool à brûler pour 1L d'eau. Répéter 3 fois à 30min d'intervalle.",
+            "Isoler complètement la plante des autres."
+        ]
+    },
+    {
+        "id": "healthy",
+        "name": "Plante Saine",
+        "scientificName": "Planta sana",
+        "plants": [
+            "Toutes"
+        ],
+        "severity": "success",
+        "description": "La plante est en pleine forme. L'énergie solaire, l'eau et les nutriments sont métabolisés de manière optimale.",
+        "symptoms": [
+            "Feuilles vertes, bien lisses (selon la variété) et d'une turgescence normale",
+            "Évolution de la floraison à terme, pas d'avortement inattendu de bourgeons"
+        ],
+        "prevention": [
+            "Maintenir l'équilibre : bonne terre, bon ensoleillement, hydrométrie maîtrisée."
+        ],
+        "treatment": [
+            "Félicitez vos plantes en leur parlant poliment, elles semblent apprécier."
+        ]
+    }
+]
