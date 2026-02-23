@@ -77,3 +77,4 @@ Si vous venez de cloner ce dépôt, vous êtes prêts à contribuer !
 - Améliorez l'IA dans le dossier `backend`
 
 *PlantDoc - Conçu pour protéger la nature par la technologie.*
+
