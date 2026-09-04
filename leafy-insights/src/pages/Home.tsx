@@ -62,7 +62,7 @@ const Home: React.FC = () => (
           </div>
 
           <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-black tracking-tight leading-[1.1] mb-6 drop-shadow-md">
-            Guérissez vos plantes <br className="hidden sm:block" />
+            Guérissez vos <span className="text-green-600">plantes</span> <br className="hidden sm:block" />
             <span className="text-black">
               en un clin d'œil.
             </span>
